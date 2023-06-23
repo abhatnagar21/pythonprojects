@@ -1,0 +1,5 @@
+import pywhatkit as pw
+txt="""hi there this is python
+      python is a very diverse language with simple syntax and variable usecases"""
+pw.text_to_handwriting(txt,"demo.png",[0,0,138])
+print("end")
