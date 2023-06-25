@@ -1,0 +1,2 @@
+import pywhatkit as pw
+pw.sendwhatmsg("91+8209113535","python whatsapp msg",15,03)
