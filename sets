@@ -1,0 +1,6 @@
+a1={21,53,65,21,67}
+a2={53,3,4,5,2}
+a1.pop()
+a1.add(87)
+print(a1.union(a2))
+print(a1.intersection(a2))
