@@ -1,0 +1,7 @@
+marks={"harshit": 43,"virat": 64,"vijay": 74,"gagan": 32}
+print(marks["vijay"])
+marks["uday"]=87
+print(marks["uday"])
+print(marks.get("vijay"))
+print(marks.keys()) #dict_keys(['harshit', 'virat', 'vijay', 'gagan', 'uday'])
+print(marks.values()) #dict_values([43, 64, 74, 32, 87])
