@@ -1,0 +1,15 @@
+# all the important tool used in list
+l1=[9,37,48,3,6]
+print(l1)
+l1.sort()
+print(l1)
+l1.pop() #remove last ele
+print(l1)
+l1.append(64)# appends at last
+print(l1)
+#l1.clear()
+#print(l1)
+l1.extend([32,56,75])
+l1.sort()
+print(l1)
+print(l1.index(37))
