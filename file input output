@@ -1,0 +1,10 @@
+# #writing a file
+st="learning fil io in python"
+fp=open("test.txt","w")
+fp.write(st)
+fp.close()
+#reading a file
+fp=open("test.txt","r")
+s=fp.read()
+print(s)
+fp.close()
