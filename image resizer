@@ -1,0 +1,10 @@
+import cv2
+import numpy
+src = cv2.imread("saw.jpg", cv2.IMREAD_UNCHANGED)
+scale_percent = 500
+width = int(src.shape[1] * scale_percent / 100)
+height = int(src.shape[0] * scale_percent / 100)
+dsize = (width, height)
+output = cv2.resize(src, dsize)
+cv2.imwrite("newimg.png", output)
+cv2.waitKey(0)
