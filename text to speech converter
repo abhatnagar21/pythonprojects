@@ -1,0 +1,5 @@
+import gtts  
+from playsound import playsound  
+t1 = gtts.gTTS("The production concept holds that consumers will favour products that are available and highly affordable The product concept holds that the consumers will favour products that offer the most in quality, performance and innovative features. The selling concept holds that consumers will not buy enough of the firms products unless it undertakes a large-scale selling and promotion effort. The marketing concept holds that achieving organizational goals depends on knowing the needs and wants of target markets and delivering the desired satisfactions better than competitors do. If a company engineers its washing machines to spin the clothes faster regardless of whether or not the customers want that speed, then the company has characteristics that are associated with..")
+t1.save("sound.mp3")   
+playsound("sound.mp3")  
